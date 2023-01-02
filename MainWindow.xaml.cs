@@ -36,7 +36,7 @@ namespace ArithmeticOperators_Method
         private int artithmeticoper(int a, int b) 
         {
            
-            int result ;
+            int result = 0;
             if ( btn_plus.IsPressed ==true )
             {
                 result = a + b;
@@ -52,6 +52,7 @@ namespace ArithmeticOperators_Method
                 result = a * b;
                 return result;
             }
+            return result;
             
             
             
